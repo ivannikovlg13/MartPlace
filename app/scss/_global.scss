@@ -7,9 +7,14 @@ html {
 *::after {
     box-sizing: inherit;
 }
+body{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
 a{
   display: inline-block;
   text-decoration: none;
+  color:#000;
 
 }
 ul,li{
@@ -19,4 +24,6 @@ ul,li{
 }
 .container {
   margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
 }

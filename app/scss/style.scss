@@ -1,5 +1,126 @@
-
-
 @import 'vars';
 @import 'global';
 @import 'fonts';
+
+.header{
+  color: #333333;
+}
+
+
+.header__top{
+  background-color: #eef1f3;
+  &-inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 7px;
+  padding-right: 15px;
+  height: 100px;
+  }
+  &-links{
+    margin-left: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 50px;
+  }
+  &-icons{
+    a + a {
+      margin-left: 33px;
+    }
+
+  }
+
+  &-name{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    padding-bottom: 8px;
+  }
+  &-balance{
+    color: #0674ec;
+    font-size: 15px;
+  }
+  &-avatar{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+  }
+  &-profile{
+    display: flex;
+    justify-content: space-between;
+  }
+  &-btn{
+    color:#fff;
+    font-size: 14px;
+    line-height: 28px;
+    width: 140px;
+    padding: 4px;
+    background-color: #0674ec;
+    text-align: center;
+    border-radius:15px;
+    margin-right: 50px;
+  }
+}
+.header__bottom{
+  background-color:#fff;
+  &-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+  }
+  &-search{
+    width: 360px;
+    position: relative;
+    input{
+      display: inline-block;
+      width: 100%;
+      border:1px solid #d9dfe5;
+      height: 44px;
+      border-radius: 18px;
+      padding-left: 24px;
+      border-right: none;
+      font-size: 15px;
+      line-height: 30px;
+      outline: none;      
+       &::placeholder{       
+        color:#898f96;
+        }
+
+    }
+    button{
+    width: 70px;
+    height: 44px;
+    background-color: #0674ec;
+    border-radius: 18px;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    }
+  }
+}
+.menu{
+  display: flex;
+  align-items: center;
+  height: 80px;
+  li{
+    display: inline-block;
+    & + li{
+      margin-left: 34px;
+    }
+  }
+  a{
+    color:#333333;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+
+  }
+}
+

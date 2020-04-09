@@ -123,4 +123,121 @@
 
   }
 }
+//end header
+//start product
+
+.products{
+  position: relative;
+  background-color: #294dcf;
+  min-height: 724px;
+  &__texts{
+    margin:0 auto;
+    color: #fff;
+    text-align: center;
+    padding-top: 187px;
+    h2{
+      font-size: 48px;
+      font-weight: 400;
+      padding-bottom: 24px;
+    }
+    h3{
+      font-size: 48px;
+      font-weight: 700;
+      
+    }
+    p{
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 72px;
+    }
+  }
+  &__btn {
+    text-align: center;
+    
+    a{
+      font-size: 16px;
+      color:#fff;
+      padding: 15px 30px;
+      background-color: #294dcf;
+      border: 1px solid #fff;
+      border-radius: 27px;
+      display: inline-block;
+      margin:0 15px;
+      &:hover{
+        background-color: #fff;
+        color: #0674ec;
+      }
+      
+
+    }
+    
+} }
+
+.products__search-panel{
+  position: absolute;
+  bottom: -66px;
+  height: 135px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: -2px -23px 0px -11px rgba(255,255,255,0.5);
+  margin-bottom: 1px;
+  
+  
+  
+  select{
+    font-size: 16px;
+    color:#555555;
+    margin-left: -3px;;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background-image: url(../images/icons/arrow-down.png);
+    background-repeat:no-repeat;
+    background-position: 90% 50%;
+    width: 195px;
+    padding-left: 20px;
+    outline: none;
+    cursor: pointer;
+    
+    ;   
+    
+  }
+}
+.products__search-options{
+  margin-left: 40px;
+  border: 1px solid #dcdcdc;
+  height: 53px;
+  border-radius: 1px;
+  display: inline-block;
+  input{
+    height:100%;
+    border:none;
+    border-right: 1px solid #dcdcdc;
+    width: 610px;
+    font-size: 16px;
+    color: #676767;
+    padding: 0 30px;
+    outline: none;    
+  }
+}
+.products__search-button{
+  margin: 0 40px 0 30px;
+  height: 53px;
+  border:none;
+  background-color: #0674ec;
+  font-size:16px;
+  line-height: 42px;
+  border-radius:1px;
+  a{
+    color:#fff;
+    padding: 0 56px;
+  }
+
+}
+
+//end product
 

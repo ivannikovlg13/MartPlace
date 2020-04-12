@@ -21,6 +21,15 @@ $(function () {
     nextArrow: '<img class="slider-arrows slider-arrows__next" src="images/right.svg" alt=""></img>',
   });
 
+  $('.release__slider-inner').slick({
+    dots: false,
+    arrows: true,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    prevArrow: '<img class="slider-arrows slider-arrows__prev" src="images/back.svg" alt=""></img>',
+    nextArrow: '<img class="slider-arrows slider-arrows__next" src="images/right.svg" alt=""></img>',
+  });
+
 
   var mixer = mixitup('.release__inner-box');
 

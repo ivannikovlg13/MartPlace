@@ -299,11 +299,9 @@ font-size: 60px;
   padding: 120px 0;
 
     &-title-bg{
-      height: 45px;
-      width: 110px;
-      border-radius:25px;
+
       background-color: #7347c1;
-      position: relative;
+      
     }
   }
 
@@ -659,27 +657,24 @@ font-size: 60px;
 .release__bottom-btn{
   text-align: center;
   margin-top: 30px
-  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //end release
+//star slider-release
+.release__slider{
+  padding: 120px 0;
+  background-color: #eff1f5;
+  &-title-bg{
+    background-color: #0674ec;
+  }
+}
+//end
+
+
+
+
+
+
+//end slider-release
 
 
 

@@ -34,6 +34,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-envelope-o:before {
+  content: "\f003";
+}
 .icon-shopping-cart:before {
   content: "\f07a";
 }
@@ -48,6 +51,9 @@
 }
 .icon-facebook-f:before {
   content: "\f09a";
+}
+.icon-bell-o:before {
+  content: "\f0a2";
 }
 .icon-pinterest:before {
   content: "\f0d2";
